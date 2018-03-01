@@ -3,7 +3,11 @@
     <a class="site-title" href="{{ "/" }}">
       <img class="site-logo" src="//paulradzkov.com/avatar/paulradzkov_60x60.jpg" width="30" height="30" alt="Павел Радьков" />
     </a>
-    /
-    {{ site.title }}
+    <span class="site-nav-divider">/</span>
+    <span class="site-nav-title">{{ site.title }}</span>
+
+    {% if site.github %}
+    <a href="{{ site.github }}" class="site-github">GitHub</a>
+    {% endif %}
   </nav>
 </header>

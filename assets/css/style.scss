@@ -5,7 +5,35 @@
 @import "https://unpkg.com/links.less@latest/links.min.css";
 
 .site-logo {
-  border-radius: 2px;
+    display: inline-block;
+    border-radius: 2px;
+    vertical-align: middle;
+}
+
+.site-header {
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    padding: 0 0 16px;
+}
+
+.site-nav-divider {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0 8px;
+    opacity: 0.4;
+}
+
+.site-nav-title {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.site-github {
+    float: right;
+    display: inline-block;
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 2px;
+    padding: 7px 15px;
+    line-height: 24px;
 }
 
 .highlight .hll { background-color: #ffffcc }
