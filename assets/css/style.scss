@@ -4,15 +4,20 @@
 @import "https://unpkg.com/bettertext.css@latest/bettertext.min.css";
 @import "https://unpkg.com/links.less@latest/links.min.css";
 
+.site-header {
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    padding: 0 0 16px;
+}
+
 .site-logo {
     display: inline-block;
     border-radius: 2px;
     vertical-align: middle;
 }
 
-.site-header {
-    border-bottom: 1px solid rgba(0,0,0,0.1);
-    padding: 0 0 16px;
+.site-title {
+    display: inline-block;
+    vertical-align: middle;
 }
 
 .site-nav-divider {
